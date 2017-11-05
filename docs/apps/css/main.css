@@ -4,6 +4,9 @@
 .navbar-collapse.collapse {
     min-height: 90px;
 }
+.navbar-brand {
+    height: 90px
+}
 .leftUpCorner_icon {
     height: 74px;
 }
