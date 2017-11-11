@@ -233,12 +233,16 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       $(function(){
+
+        var jingpin_tab=null;
         $("#jingpin-tab > div").hover(function(){
-          $(this).css("background-color","yellow");
-        }, function() {
-          $(this).css("background-color","");
-        }).each(function() {
           console.log(arguments);
+          if (jingpin_tab) {
+            $(jingpin_tab).hide();
+            $(jingpin_tab).css("background-color","");
+          }
+          $(this).css("background-color","yellow");
+          jingpin_tab = this;
         });
       });
     </script>
