@@ -1,3 +1,7 @@
 .navbar.navbar-inverse {
     opacity:0.9;
 }
+
+.no-padding {
+    padding:0 0 0 0;
+}
