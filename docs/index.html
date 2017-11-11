@@ -198,7 +198,7 @@
         </div>
         <div id="jingpin-tab-panel1" class="row">
           <div class="col-xs-12 col-sm-12 col-md-3">
-            <img src="boutiquecases/11.jpg" class="img-reposive"/>
+            <img src="images/boutiquecases/11.jpg" class="img-reposive"/>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-3"></div>
           <div class="col-xs-12 col-sm-12 col-md-3"></div>
@@ -217,11 +217,13 @@
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script>
-      $("#jingpin-tab > div").hover(function(){
-        $(this).addClass("active");
-      }, function() {
-        $(this).removeClass("active");
+    <script type="text/javascript">
+      $(function(){
+        $("#jingpin-tab > div").hover(function(){
+          $(this).addClass("active");
+        }, function() {
+          $(this).removeClass("active");
+        });
       });
     </script>
   </body>
