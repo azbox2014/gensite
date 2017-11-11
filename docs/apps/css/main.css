@@ -5,3 +5,11 @@
 .no-padding-col > div {
     padding:0 0 0 0;
 }
+
+.jingpin-tab.active {
+    background-color: yellow;
+}
+
+.jingpin-tab-panel {
+    display: none;
+}

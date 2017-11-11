@@ -190,13 +190,13 @@
         <div class="row">
           <div class="col-md-12"><h5><p class="text-center text-uppercase">BOUTIQUE CASES</p></h5></div>
         </div>
-        <div id="jingpin-tab" class="row">
+        <div id="jingpin-tab" class="row jingpin-tab">
           <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">商业空间</div>
           <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">娱乐空间</div>
           <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">酒店会所</div>
           <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">住宅空间</div>
         </div>
-        <div id="jingpin-tab-panel1" class="row no-padding-col">
+        <div id="jingpin-tab-panel1" class="row no-padding-col jingpin-tab-panel">
           <div class="col-xs-12 col-sm-12 col-md-3">
             <img src="images/boutiquecases/11.jpg" class="img-responsive center-block"/>
           </div>
@@ -210,7 +210,7 @@
             <img src="images/boutiquecases/14.jpg" class="img-responsive center-block"/>
           </div>
         </div>
-        <div id="jingpin-tab-panel2" class="row no-padding-col">
+        <div id="jingpin-tab-panel2" class="row no-padding-col jingpin-tab-panel">
           <div class="col-md-3">
             <img src="images/boutiquecases/21.jpg" class="img-responsive"/>
           </div>
@@ -237,6 +237,8 @@
           $(this).css("background-color","yellow");
         }, function() {
           $(this).css("background-color","");
+        }).foreach(function(){
+          console.log(arguments);
         });
       });
     </script>
