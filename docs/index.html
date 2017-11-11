@@ -233,12 +233,13 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       $(function(){
-        $("#jingpin-tab > div").foreach(function(){
-          console.log(arguments);
-        }).hover(function(){
+        $("#jingpin-tab > div").hover(function(){
           $(this).css("background-color","yellow");
         }, function() {
           $(this).css("background-color","");
+        });
+        $("#jingpin-tab > div").foreach(function() {
+          console.log(arguments);
         });
       });
     </script>
