@@ -234,9 +234,9 @@
     <script type="text/javascript">
       $(function(){
 
-        var jingpin_tab=null;
+        var jingpin_tab = -1;
         function activeJingpin(idx) {
-          if (jingpin_tab) {
+          if (jingpin_tab >= 0) {
             $("#jingpin-tab > div").eq(jingpin_tab).css("background-color","");
             $("#jingpin-tab-panel" + jingpin_tab).hide();
           }
