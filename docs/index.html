@@ -196,7 +196,7 @@
           <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">酒店会所</div>
           <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">住宅空间</div>
         </div>
-        <div id="jingpin-tab-panel1" class="row no-padding-col jingpin-tab-panel">
+        <div id="jingpin-tab-panel0" class="row no-padding-col jingpin-tab-panel">
           <div class="col-xs-12 col-sm-12 col-md-3">
             <img src="images/boutiquecases/11.jpg" class="img-responsive center-block"/>
           </div>
@@ -210,7 +210,7 @@
             <img src="images/boutiquecases/14.jpg" class="img-responsive center-block"/>
           </div>
         </div>
-        <div id="jingpin-tab-panel2" class="row no-padding-col jingpin-tab-panel">
+        <div id="jingpin-tab-panel1" class="row no-padding-col jingpin-tab-panel">
           <div class="col-md-3">
             <img src="images/boutiquecases/21.jpg" class="img-responsive"/>
           </div>
@@ -235,15 +235,21 @@
       $(function(){
 
         var jingpin_tab=null;
-        $("#jingpin-tab > div").hover(function(){
-          console.log(arguments);
+        function activeJingpin(idx) {
           if (jingpin_tab) {
-            $(jingpin_tab).hide();
-            $(jingpin_tab).css("background-color","");
+            $("#jingpin-tab > div").eq(jingpin_tab).css("background-color","");
+            $("#jingpin-tab-panel" + jingpin_tab).hide();
           }
-          $(this).css("background-color","yellow");
-          jingpin_tab = this;
+          $("#jingpin-tab > div").eq(idx).css("background-color","yellow");
+          $("#jingpin-tab-panel" + idx).slideUp();
+          jingpin_tab = idx;
+        }
+        $("#jingpin-tab > div").each(function(idx){
+          $(this).hover(function(){
+            activeJingpin(idx);
+          });
         });
+        activeJingpin(0);
       });
     </script>
   </body>
