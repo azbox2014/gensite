@@ -237,8 +237,7 @@
           $(this).css("background-color","yellow");
         }, function() {
           $(this).css("background-color","");
-        });
-        $("#jingpin-tab > div").foreach(function() {
+        }).each(function() {
           console.log(arguments);
         });
       });
