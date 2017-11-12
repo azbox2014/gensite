@@ -22,6 +22,9 @@
 }
 
 .process-sharp-sm {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     width: 84px;
     height: 84px;
     border-radius: 42px;
@@ -38,6 +41,9 @@
 }
 
 .process-sharp-md {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     width: 150px;
     height: 150px;
     border-radius: 75px;
