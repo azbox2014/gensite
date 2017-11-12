@@ -34,8 +34,8 @@
     border-style: solid;
     color: #dddddd;
 }
-.process-sharp-sm.active {
-    background-color: none;
+.process-sharp-sm:hover {
+    background-color: transparent;
     border-width: 2px;
     border-color: white;
     border-style: solid;
@@ -53,8 +53,8 @@
     border-width: 2px;
     border-style: solid;
 }
-.process-sharp-md.active {
-    background-color: none;
+.process-sharp-md:hover {
+    background-color: transparent;
     border-width: 2px;
     border-color: white;
     border-style: solid;
