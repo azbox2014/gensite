@@ -192,10 +192,10 @@
           <div class="col-md-12"><h5><p class="text-center text-uppercase">BOUTIQUE CASES</p></h5></div>
         </div>
         <div id="jingpin-tab" class="row jingpin-tab" style="padding-bottom:10px;">
-          <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">商业空间</div>
-          <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">娱乐空间</div>
-          <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">酒店会所</div>
-          <div class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">住宅空间</div>
+          <div data-target="jingpin-tab-panel0" class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">商业空间</div>
+          <div data-target="jingpin-tab-panel1" class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">娱乐空间</div>
+          <div data-target="jingpin-tab-panel2" class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">酒店会所</div>
+          <div data-target="jingpin-tab-panel3" class="col-lg-3 text-center" style="padding-top:10px; padding-bottom:10px">住宅空间</div>
         </div>
         <div id="jingpin-tab-panel0" class="row no-padding-col jingpin-tab-panel">
           <div class="col-xs-12 col-sm-12 col-md-3">
@@ -279,26 +279,6 @@
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(function(){
-
-        var jingpin_tab = -1;
-        function activeJingpin(idx) {
-          if (jingpin_tab >= 0) {
-            $("#jingpin-tab > div").eq(jingpin_tab).css("background-color","");
-            $("#jingpin-tab-panel" + jingpin_tab).hide();
-          }
-          $("#jingpin-tab > div").eq(idx).css("background-color","yellow");
-          $("#jingpin-tab-panel" + idx).slideDown();
-          jingpin_tab = idx;
-        }
-        $("#jingpin-tab > div").each(function(idx){
-          $(this).hover(function(){
-            activeJingpin(idx);
-          });
-        });
-        activeJingpin(0);
-      });
-    </script>
+    <script src="apps/js/main.js"></script>
   </body>
 </html>
