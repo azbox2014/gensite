@@ -36,6 +36,7 @@
 }
 .process-sharp-sm:hover {
     background-color: transparent;
+    color: #dddddd;
     border-width: 2px;
     border-color: white;
     border-style: solid;
@@ -55,6 +56,7 @@
 }
 .process-sharp-md:hover {
     background-color: transparent;
+    color: #dddddd;
     border-width: 2px;
     border-color: white;
     border-style: solid;
