@@ -14,6 +14,45 @@
     display: none;
 }
 
+.service-process-bg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/serviceprocess/bg.jpg)
+}
+
+.process-sharp-sm {
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    background-color: yellow;
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+}
+.process-sharp-sm.active {
+    background-color: none;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.process-sharp-md {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: yellow;
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+}
+.process-sharp-md.active {
+    background-color: none;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
 .circle-bg {
     background-attachment: fixed;
     background-repeat: no-repeat;
