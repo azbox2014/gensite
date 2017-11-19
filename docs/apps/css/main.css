@@ -73,7 +73,7 @@
 }
 .process-step-horizontal-mod {
     display: none;
-    margin-top: 0px;
+    margin-top: -6px;
 }
 .process-step-detail {
     display:none;
