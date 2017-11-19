@@ -71,6 +71,12 @@
     width:0px;
     text-align: center;
 }
+.process-step-horizontal-mod {
+    display: none;
+}
+.process-step-detail {
+    display:none;
+}
 
 .circle-bg {
     background-attachment: fixed;

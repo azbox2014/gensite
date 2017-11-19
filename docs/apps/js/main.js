@@ -17,5 +17,13 @@ $(function(){
         });
     });
     activeJingpin($("#jingpin-tab > div").eq(0), true);
+
+    // process step
+    $(".process-sharp-md").hover(function(){
+        idx = $(this).attr("data-target");
+        $(".process-step-horizontal-mod").show();
+        $(".process-step-detail").hide();
+        $(".process-step-detail").eq(idx).show();
+    })
 });
     
