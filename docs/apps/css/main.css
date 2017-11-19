@@ -53,12 +53,22 @@
     border-width: 2px;
     border-style: solid;
 }
+.process-sharp-md + hr {
+    display: none;
+}
 .process-sharp-md:hover {
     background-color: transparent;
     color: #dddddd;
     border-width: 2px;
     border-color: white;
     border-style: solid;
+}
+.process-sharp-md:hover + hr {
+    margin:0px;
+    border:0px;
+    border-left:1px solid white;
+    height:42px;
+    width:0px;
 }
 
 .circle-bg {
