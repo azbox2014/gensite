@@ -21,6 +21,8 @@ $(function(){
     // process step
     $(".process-sharp-md").hover(function(){
         idx = $(this).attr("data-target");
+        $(".process-sharp-md").removeClass("active");
+        $(this).addClass("active");
         $(".process-sharp-vertical-mod").addClass("inactive");
         $(this).next().removeClass("inactive");
         $(".process-step-horizontal-mod").show();

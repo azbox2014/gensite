@@ -53,7 +53,7 @@
     border-width: 2px;
     border-style: solid;
 }
-.process-sharp-md:hover {
+.process-sharp-md.active {
     background-color: transparent;
     color: #dddddd;
     border-width: 2px;
@@ -73,9 +73,11 @@
 }
 .process-step-horizontal-mod {
     display: none;
+    margin-top: 0px;
 }
 .process-step-detail {
     display:none;
+    color: white;
 }
 
 .circle-bg {
