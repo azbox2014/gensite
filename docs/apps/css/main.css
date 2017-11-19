@@ -41,7 +41,7 @@
     border-style: solid;
 }
 
-.process-sharp-md > div {
+.process-sharp-md {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -53,17 +53,17 @@
     border-width: 2px;
     border-style: solid;
 }
-.process-sharp-md > hr {
-    display: none;
+.process-sharp-md.inactive {
+    display: none!important;
 }
-.process-sharp-md:hover > div {
+.process-sharp-md:hover {
     background-color: transparent;
     color: #dddddd;
     border-width: 2px;
     border-color: white;
     border-style: solid;
 }
-.process-sharp-md:hover > hr {
+.process-sharp-vertical-mod {
     margin:0px;
     border:0px;
     border-left:1px solid white;
