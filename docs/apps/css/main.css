@@ -53,15 +53,15 @@
     border-width: 2px;
     border-style: solid;
 }
-.process-sharp-md.inactive {
-    display: none!important;
-}
 .process-sharp-md:hover {
     background-color: transparent;
     color: #dddddd;
     border-width: 2px;
     border-color: white;
     border-style: solid;
+}
+.process-sharp-vertical-mod.inactive {
+    display: none!important;
 }
 .process-sharp-vertical-mod {
     margin:0px auto;
