@@ -64,7 +64,7 @@
     border-style: solid;
 }
 .process-sharp-vertical-mod {
-    margin:0px;
+    margin:0px auto;
     border:0px;
     border-left:1px solid white;
     height:42px;
