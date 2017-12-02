@@ -93,3 +93,27 @@
     background-size: cover;
     background-image: url(/images/circle-yellow.png);
 }
+
+newsitem-date {
+    background-color:#dddddd;
+    color:#999999;
+}
+newsitem-day {
+    width:75px;
+    height:50px;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    font-weight:bold;
+    font-size:x-large;
+}
+newsitem-month {
+    width:75px;
+    height:24px;
+    position:relative;
+    top:1px;
+    padding-top:3px;
+    text-align:center;
+    font-size:small;
+}
+    
