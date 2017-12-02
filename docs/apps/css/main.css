@@ -98,6 +98,7 @@
     color:#999999;
     width:75px;
     height:75px;
+    float:left;
 }
 .newsitem-day {
     width:75px;
@@ -106,7 +107,7 @@
     text-align:center;
     vertical-align:middle;
     font-weight:bold;
-    font-size:x-large;
+    font-size:30px;
     background-color:#222326;
 }
 .newsitem-month {
@@ -116,7 +117,19 @@
     top:1px;
     padding-top:3px;
     text-align:center;
-    font-size:small;
+    font-size:12px;
     background-color:#222326;
 }
-    
+.newsitem-textpanel {
+    margin-left:95px;
+}
+.newsitem-header {
+    font-size:16px;
+    font-weight:bold;
+    color:#dddddd;
+}
+.newsitem-summary {
+    font-size: 13px;
+    color:#808080;
+    margin-top:15px;
+}
