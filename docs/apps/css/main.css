@@ -138,8 +138,11 @@
 }
 
 .addition-catagory {
-
+    line-height: 20px;
+    font-size: 16px;
+    color: #ffffff;
 }
 .addition-catagory-item {
-    
+    line-height: 1.5;
+    padding: 4px auto;
 }
